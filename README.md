@@ -1,24 +1,35 @@
-# Jump Game
+# City Library Management System
 
-Jump Game is an application developed using Python and the pygame library. It is a simple jumping game where the user controls a character to jump over obstacles and collect coins. The application has an interface GUI for users to maintain a record of high score, current score, and replay without quitting the application. An executable file has also been created for users to download, install and enjoy the game freely.
+This is a full-stack web application for managing a city library's collection of books and patrons. With this system, librarians can perform functions such as searching for books, reserving books for patrons, checking out books, and calculating fines for late returns. The application was developed using HTML 5, CSS 3, JavaScript, PHP, and PHP MyAdmin as the database server.
 
-## Installation 
+## Features
+Search for books by title, author, or ISBN
+Reserve books for patrons
+Check out books to patrons
+Calculate fines for late returns
+Display the library's collection and patrons' records
+Entity Relationship Diagram
+To effectively manage the library's collection and patrons, we designed an entity relationship diagram that defines the relationships between 8 tables. The diagram ensures the integrity and consistency of data, and allows for efficient querying of data. We also used indexing to reduce the table size by 25%, which improved the performance of the system.
 
-To install Jump Game, follow these steps:
 
-1. Clone this repository to your local machine.
-2. Install Python 3.x or later if you haven't already.
-3. Install the pygame library using pip install pygame.
-4. Run the executable file "Jump_Game.exe" or run the "jump_game.py" file in your Python environment.
+## Installation and Usage
+To use the City Library Management System, you need to have a web server with PHP and PHP MyAdmin installed. Here are the steps to install the system:
 
-## Usage
+## Clone the repository to your local machine:
+bash
+Copy code
+git clone https://github.com/your-username/city-library.git
+Import the database schema and sample data to your PHP MyAdmin server.
 
-Once you have installed Jump Game, you can start playing the game by launching the application. The game will start automatically, and you can use the left and right arrow keys to control the character's movement. You can use the spacebar to make the character jump over obstacles and collect coins. The game will end if the character collides with an obstacle or falls off the screen.
+Configure the db.php file with your database connection details.
 
-You can also maintain a record of your high score and current score in the game. The application will save your scores automatically, and you can view them by clicking the "High Scores" button on the main menu.
+Start your web server and navigate to index.php to use the system.
 
-## Optimization 
+## Credits
+This project was developed by Vedant Kadu as part of Database management course at New Jersey Institute of Technology.  Special thanks to Dimitri Theodoratos for their guidance and support.
 
-In this project, we used the correct data structures and followed appropriate object-oriented programming concepts. We also optimized the background for the application, which improved the performance of the application by 13%.
+License
+This project is licensed under the MIT License. Feel free to use and modify it for your own purposes.
+
 
 
