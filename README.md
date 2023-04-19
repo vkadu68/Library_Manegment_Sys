@@ -17,8 +17,7 @@ To use the City Library Management System, you need to have a web server with PH
 
 ## Clone the repository to your local machine:
 bash
-Copy code
-git clone https://github.com/your-username/city-library.git
+git clone https://github.com/vkadu68/city-library.git
 Import the database schema and sample data to your PHP MyAdmin server.
 
 Configure the db.php file with your database connection details.
