@@ -27,8 +27,5 @@ Start your web server and navigate to index.php to use the system.
 ## Credits
 This project was developed by Vedant Kadu as part of Database management course at New Jersey Institute of Technology.  Special thanks to Dimitri Theodoratos for their guidance and support.
 
-License
-This project is licensed under the MIT License. Feel free to use and modify it for your own purposes.
-
 
 
